@@ -76,7 +76,7 @@ const projects = [
     title: "Java Projects",
     desc: "Developed a console-based banking system for transactions and account management. Also implemented algorithms like affine cipher, CPU scheduling (FCFS, RR), and a basic employee database using Java and OOP principles.",
     tech: ["Java", "OOP", "File Handling"],
-    github: "https://github.com/SubhankarA8415/Java/tree/main/atm_project/src"
+    github: "https://github.com/SubhankarA8415/Java"
   },
   {
     title: "Python Projects",
