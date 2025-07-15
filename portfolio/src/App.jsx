@@ -17,8 +17,10 @@ const fadeInUp = {
 
 const skills = [
   "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB",
-  "Django", "Python", "Java", "C", "C++", "MySQL",
-  "REST APIs", "Git", "GitHub", "Postman", "VS Code"
+  "Django", "Python", "Java", "C", "C++", "MySQL", "Payment Gateways",
+  "REST APIs", "Git", "GitHub", "Postman", "VS Code", "SMS Gatway",
+  "Cloudinary", "Maps", "Authentication", "Authorization", "Tailwind",
+  "Terminal"
 ];
 
 const education = [
@@ -44,6 +46,11 @@ const education = [
 
 const experience = [
   {
+  title: "Code for Good 2025 – JPMorgan Chase & Co.",
+  duration: "June 2025",
+  desc: "Worked as a Full-Stack Developer in Team 27, building an agri-tech platform for NGO CML. Led backend development using Node.js, Express.js, role-based auth, Google OAuth, and OTP login. Integrated modules like Razorpay, Cloudinary, real-time chat, chatbot, dashboards, and SMS alerts. Also contributed to the frontend using React.js and Tailwind CSS, along with Excel data processing."
+  },
+  {
     title: "Adobe & NITI Aayog – Student Mentorship Program",
     duration: "September 2020",
     desc: "Selected for a 3-week remote mentorship under Atal Innovation Mission. Worked with Adobe Spark and Adobe XD. Designed UI/UX wireframes and digital posters as part of the program."
@@ -51,6 +58,13 @@ const experience = [
 ];
 
 const projects = [
+  {
+  title: "Code for Good 2025 – JPMorgan Chase & Co.",
+  desc: "Developed a real-world agri-tech platform for NGO CML to digitize operations, support farmer onboarding, enable donations, and run a crop marketplace. Built a secure backend with role-based access, OTP login, real-time chat, chatbot, Razorpay payments, and SMS alerts. Enabled production tracking, dashboards, and data visualizations.",
+  tech: ["MongoDB", "Express.js", "Node.js", "React.js", "Tailwind CSS", "Cloudinary", "Razorpay", "SMS API", "Google OAuth"],
+  github: "https://github.com/SubhankarA8415/CFG-HYD-2025-JPMC",
+  live: "https://cfg-hyd-2025-jpmc.vercel.app/"
+  },
   {
     title: "Yelp-Camp",
     desc: "Developed a Yelp-like full-stack platform where users can browse, review, and post campgrounds. Implemented full CRUD operations, user authentication with Passport.js, and integrated Cloudinary for image uploads.",
