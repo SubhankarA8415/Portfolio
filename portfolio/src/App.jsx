@@ -20,7 +20,7 @@ const skills = [
   "Django", "Python", "Java", "C", "C++", "MySQL", "Payment Gateways",
   "REST APIs", "Git", "GitHub", "Postman", "VS Code", "SMS Gatway",
   "Cloudinary", "Maps", "Authentication", "Authorization", "Tailwind",
-  "Terminal"
+  "Terminal", "PostgreSQL"
 ];
 
 const education = [
@@ -72,6 +72,12 @@ const projects = [
     github: "https://github.com/SubhankarA8415/Web_Dev_Yelp-camp",
     live: "https://web-dev-yelp-camp.onrender.com/"
   },
+  {
+  title: "Django Mini Projects",
+  desc: "Built a blog, weather app, and chatbot showcasing Django backend, API integration, and dynamic frontend development.",
+  tech: ["Django", "HTML/CSS", "JavaScript", "SQLite"],
+  github: "https://github.com/SubhankarA8415/Django",  // replace with your actual repo
+},
   {
     title: "Java Projects",
     desc: "Developed a console-based banking system for transactions and account management. Also implemented algorithms like affine cipher, CPU scheduling (FCFS, RR), and a basic employee database using Java and OOP principles.",
