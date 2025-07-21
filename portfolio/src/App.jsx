@@ -261,6 +261,7 @@ export default function App() {
       <motion.section id="contact" className="p-6 text-center" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
         <h3 className="text-3xl font-semibold mb-4 font-[Lora]">Contact</h3>
         <p>📍 Berhampur, Odisha</p>
+        <p>📞 +918917352745</p>
         <p>📧 <a href="mailto:subhankar.pandit2002@gmail.com" className="text-purple-600 dark:text-purple-400">subhankar.pandit2002@gmail.com</a></p>
         <div className="flex justify-center gap-6 mt-4 text-2xl">
           <a href="https://github.com/SubhankarA8415" target="_blank"><FaGithub /></a>
