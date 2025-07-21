@@ -176,7 +176,9 @@ export default function App() {
           whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} />
         <motion.h2 className="text-4xl font-bold mb-4 text-purple-700 dark:text-purple-300">Full Stack Developer</motion.h2>
         <p className="max-w-xl text-gray-700 dark:text-gray-300">
-          MERN Stack and Django developer passionate about backend engineering, AI/ML, cloud, and DevOps.
+         Final-year B. Tech Computer Science student with expertise in MERN Stack and Django, and a strong passion
+        for backend engineering, AI/ML, cloud technologies, databases, and DevOps. Experienced in full-stack
+        web development, Java/Python projects, and MySQL. PostgreSQL Eager to contribute to impactful, realworld applications and expand technical skills.
         </p>
       </motion.section>
 
