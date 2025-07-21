@@ -215,7 +215,7 @@ export default function App() {
 
       {/* Experience */}
       <motion.section id="experience" className="p-6" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <h3 className="text-3xl font-semibold mb-4 font-[Lora]">Experience</h3>
+        <h3 className="text-3xl font-semibold mb-4 font-[Lora]">Work Experience</h3>
         <div className="grid md:grid-cols-1 gap-6">
           {experience.map(({ title, duration, desc }, i) => (
             <motion.div key={i} custom={i} variants={fadeInUp} initial="hidden" whileInView="visible"
