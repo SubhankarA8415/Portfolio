@@ -122,7 +122,7 @@ export default function App() {
   const [active, setActive] = useState("home");
 
   useEffect(() => {
-    const sectionIds = ["home", "education", "skills", "experience", "projects", "contact"];
+    const sectionIds = ["home", "education", "skills", "experience", "projects", "certifications", "contact"];
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight / 2;
@@ -167,30 +167,38 @@ export default function App() {
               <FaBars />
             </button>
           </div>
-          <nav className="hidden md:flex space-x-6 text-lg">
-            {["education", "skills", "experience", "projects", "contact"].map(id => (
-              <button key={id} onClick={() => scrollTo(id)}
-                className={`${active === id ? 'text-purple-600 dark:text-purple-400 font-bold' : 'hover:text-purple-500'}`}>
-                {id.charAt(0).toUpperCase() + id.slice(1)}
+      <nav className="hidden md:flex space-x-6 text-lg">
+            {["education", "skills", "experience", "projects", "certifications", "contact"].map(id => (
+            <button
+              key={id}
+              onClick={() => scrollTo(id)}
+              className={`${active === id ? 'text-purple-600 dark:text-purple-400 font-bold' : 'hover:text-purple-500'}`}>
+              {id.charAt(0).toUpperCase() + id.slice(1)}
               </button>
-            ))}
+              ))}
             <button onClick={() => setDark(!dark)} className="text-xl">
-              {dark ? <FaSun /> : <FaMoon />}
+            {dark ? <FaSun /> : <FaMoon />}
             </button>
-          </nav>
+        </nav>
+
         </div>
         {open && (
-          <div className="md:hidden mt-2 space-y-2">
-            {["education", "skills", "experience", "projects", "contact"].map(id => (
-              <button key={id} onClick={() => scrollTo(id)} className="block w-full text-left px-2 py-1 hover:bg-purple-100 dark:hover:bg-gray-700 capitalize">
-                {id}
+            <div className="md:hidden mt-2 space-y-2">
+              {["education", "skills", "experience", "projects", "certifications", "contact"].map(id => (
+                <button
+                  key={id}
+                  onClick={() => scrollTo(id)}
+                  className="block w-full text-left px-2 py-1 hover:bg-purple-100 dark:hover:bg-gray-700 capitalize">
+                  {id}
+                </button>
+              ))}
+              <button
+                onClick={() => setDark(!dark)}
+                className="block w-full text-left px-2 py-1 hover:bg-purple-100 dark:hover:bg-gray-700">
+                {dark ? 'Light Mode' : 'Dark Mode'}
               </button>
-            ))}
-            <button onClick={() => setDark(!dark)} className="block w-full text-left px-2 py-1 hover:bg-purple-100 dark:hover:bg-gray-700">
-              {dark ? 'Light Mode' : 'Dark Mode'}
-            </button>
-          </div>
-        )}
+            </div>
+          )}
       </header>
 
       {/* Home */}
