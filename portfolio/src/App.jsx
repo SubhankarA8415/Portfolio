@@ -19,7 +19,7 @@ const skills = [
   "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB",
   "Django", "Python", "Java", "C", "C++", "MySQL", "Payment Gateways",
   "REST APIs", "Git", "GitHub", "Postman", "VS Code", "SMS Gatway",
-  "Cloudinary", "Maps", "Authentication", "Authorization", "Tailwind",
+  "Cloudinary", "Maps", "OAuth", "Authentication", "Authorization", "Tailwind",
   "Terminal", "PostgreSQL"
 ];
 
@@ -45,6 +45,11 @@ const education = [
 ];
 
 const experience = [
+  {
+  title: "Freelance Web Developer – Solid NGO, Kash College",
+  duration: "July 2025 – Present",
+  desc: "Developing a production-ready MERN + EJS web app to digitize college and NGO operations. Implemented secure role-based authentication using JWT and HTTP-only cookies. Focused on enhancing data accessibility and resource management for college education in rural areas."
+  },
   {
   title: "Code for Good 2025 – JPMorgan Chase & Co.",
   duration: "June 2025",
@@ -91,6 +96,25 @@ const projects = [
     github: "https://github.com/SubhankarA8415/Python"
   }
 ];
+
+const certifications = [
+  {
+    title: "Code for Good 2025 – JPMorgan Chase & Co.",
+    date: "June 2025",
+    link: "https://www.dropbox.com/scl/fi/jdz19t5mkgzyhg3x7hilo/cfg_hyd_JPMC.jpg?rlkey=4h16id8yo5g48ifyu0j9x6eb4&st=lm4xfat5&dl=0" // Replace with actual certificate link if available
+  },
+  {
+    title: "Web Developer Bootcamp 2024 – Udemy",
+    date: "March 2024",
+    link: "https://www.udemy.com/certificate/UC-f18b2d39-1672-42bb-8e94-5930e8caabd5/" // Replace with your actual certificate link
+  },
+  {
+    title: "Student Mentee – Adobe & NITI Aayog Mentorship Program",
+    date: "September 2020",
+    link: "https://www.dropbox.com/scl/fi/pcrcap83zruw2e5g727gy/Niti-aayog-adobe-mentorship.jpg?rlkey=24u09rpjk95zrk6bv463lv9ui&st=7zvxrcfa&dl=0" // Replace with your actual certificate link
+  }
+];
+
 
 export default function App() {
   const [dark, setDark] = useState(false);
@@ -256,6 +280,24 @@ export default function App() {
           ))}
         </div>
       </motion.section>
+
+      {/* Certifications */}
+      <motion.section id="certifications" className="p-6" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+        <h3 className="text-3xl font-semibold mb-4 font-[Lora]">Certifications</h3>
+        <div className="grid gap-4">
+          {certifications.map(({ title, date, link }, i) => (
+            <motion.div key={i} custom={i} variants={fadeInUp} initial="hidden" whileInView="visible"
+              whileHover={{ y: -8, scale: 1.02 }}
+              className="bg-white dark:bg-gray-800 text-gray-900 dark:text-white p-4 rounded shadow border dark:border-gray-700">
+              <a href={link} target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-purple-600 dark:text-purple-400 hover:underline">
+                {title}
+              </a>
+              <p className="text-sm text-gray-600 dark:text-gray-300">{date}</p>
+            </motion.div>
+          ))}
+        </div>
+      </motion.section>
+
 
       {/* Contact */}
       <motion.section id="contact" className="p-6 text-center" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
