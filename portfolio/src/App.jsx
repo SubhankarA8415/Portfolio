@@ -20,7 +20,7 @@ const skills = [
   "Django", "Python", "Java", "C", "C++", "MySQL", "Payment Gateways",
   "REST APIs", "Git", "GitHub", "Postman", "VS Code", "SMS Gatway",
   "Cloudinary", "Maps", "OAuth", "Authentication", "Authorization", "Tailwind",
-  "Terminal", "PostgreSQL"
+  "Terminal", "PostgreSQL", "Prompt Engineering"
 ];
 
 const education = [
