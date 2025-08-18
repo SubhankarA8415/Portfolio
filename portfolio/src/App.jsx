@@ -20,7 +20,7 @@ const skills = [
   "Django", "Python", "Java", "C", "C++", "MySQL", "Payment Gateways",
   "REST APIs", "Git", "GitHub", "Postman", "VS Code", "SMS Gatway",
   "Cloudinary", "Maps", "OAuth", "Authentication", "Authorization", "Tailwind",
-  "Terminal", "PostgreSQL", "Prompt Engineering"
+  "Terminal", "Data Science", "Machine Learning", "Deep Learning", "AWS", "Prompt Engineering"
 ];
 
 const education = [
@@ -208,9 +208,7 @@ export default function App() {
           whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} />
         <motion.h2 className="text-4xl font-bold mb-4 text-purple-700 dark:text-purple-300">Full Stack Developer</motion.h2>
         <p className="max-w-xl text-gray-700 dark:text-gray-300">
-         Final-year B. Tech Computer Science student with expertise in MERN Stack and Django, and a strong passion
-        for backend engineering, AI/ML, cloud technologies, databases, and DevOps. Experienced in full-stack
-        web development, Java/Python projects, and MySQL. PostgreSQL Eager to contribute to impactful, realworld applications and expand technical skills.
+         Final-year B. Tech Computer Science student with expertise in Full Stack Web Development, and a strong interest in backend engineering, AI/ML, Deep Learning, cloud technologies, databases, and DevOps. Completed Data Science projects and currently pursuing AWS, Deep Learning and Machine Learning specialization. Experienced in MERN, Django, Java/Python projects, and MySQL, with a passion for building scalable, real-world applications and continuously expanding technical skills.
         </p>
       </motion.section>
 
