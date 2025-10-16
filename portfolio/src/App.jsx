@@ -16,11 +16,15 @@ const fadeInUp = {
 };
 
 const skills = [
-  "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB",
-  "Django", "Python", "Java", "C", "C++", "MySQL", "Payment Gateways",
-  "REST APIs", "Git", "GitHub", "Postman", "VS Code", "SMS Gatway",
-  "Cloudinary", "Maps", "OAuth", "Authentication", "Authorization", "Tailwind",
-  "Terminal", "Data Science", "Machine Learning", "Deep Learning", "AWS", "Prompt Engineering"
+  "JavaScript", "Python", "Java", "C", "C++", 
+  "React.js", "Node.js", "Express.js", "MongoDB", "Django", "HTML", "CSS", "EJS",
+  "MySQL", "SQLite",
+  "Vercel", "Render", "Firebase", "Cloudinary",
+  "TensorFlow", "Keras", "Scikit-Learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", 
+  "OpenCV", "Media pipe", "AWS",
+  "Git", "GitHub", "REST APIs", "Payment Gateways", "Postman", "VS Code", "Insomnia", "IntelliJ",
+  "SMS Gatway", "Anaconda", "Google Colab", "Maps", "OAuth", "Authentication", "Authorization", "Tailwind",
+  "Terminal",  "Prompt Engineering"
 ];
 
 const education = [
@@ -82,6 +86,18 @@ const projects = [
   desc: "Built a blog, weather app, and chatbot showcasing Django backend, API integration, and dynamic frontend development.",
   tech: ["Django", "HTML/CSS", "JavaScript", "SQLite"],
   github: "https://github.com/SubhankarA8415/Django",  // replace with your actual repo
+},
+  {
+  title: "Virtual Air Painter 🎨",
+  desc: "Developed a real-time virtual air drawing application using OpenCV and MediaPipe, enabling gesture-based drawing, color selection, and eraser functionality through hand tracking.",
+  tech: ["OpenCV", "MediaPipe"],
+  github: "https://github.com/SubhankarA8415/Virtual-Painter-Computer-Vision"
+},
+  {
+  "title": "Food Vision 101",
+  "desc": "Built a food image classifier using EfficientNetB0 with transfer learning, comparing Adam and Lion optimizers. Achieved ~75% test accuracy with Adam and ~79% with Lion through feature extraction and fine-tuning.",
+  "tech": ["TensorFlow", "Keras", "NumPy", "Matplotlib"],
+  "github": "https://github.com/SubhankarA8415/Food_Vision_101"
 },
   {
     title: "Java Projects",
@@ -168,7 +184,7 @@ export default function App() {
             </button>
           </div>
       <nav className="hidden md:flex space-x-6 text-lg">
-            {["education", "skills", "experience", "projects", "certifications", "contact"].map(id => (
+            {["education", "skills & tools", "experience", "projects", "certifications", "contact"].map(id => (
             <button
               key={id}
               onClick={() => scrollTo(id)}
@@ -184,7 +200,7 @@ export default function App() {
         </div>
         {open && (
             <div className="md:hidden mt-2 space-y-2">
-              {["education", "skills", "experience", "projects", "certifications", "contact"].map(id => (
+              {["education", "skills & tools", "experience", "projects", "certifications", "contact"].map(id => (
                 <button
                   key={id}
                   onClick={() => scrollTo(id)}
@@ -231,7 +247,7 @@ export default function App() {
 
       {/* Skills */}
       <motion.section id="skills" className="p-6" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <h3 className="text-3xl font-semibold mb-4 font-[Lora]">Skills</h3>
+        <h3 className="text-3xl font-semibold mb-4 font-[Lora]">Skills and Tools</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {skills.map((skill, i) => (
             <motion.div key={skill} custom={i} variants={fadeInUp} initial="hidden" whileInView="visible"
