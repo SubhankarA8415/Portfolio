@@ -138,7 +138,7 @@ export default function App() {
   const [active, setActive] = useState("home");
 
   useEffect(() => {
-    const sectionIds = ["home", "education", "skills", "experience", "projects", "certifications", "contact"];
+    const sectionIds = ["home", "education", "skills & tools", "experience", "projects", "certifications", "contact"];
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight / 2;
@@ -246,7 +246,7 @@ export default function App() {
       </motion.section>
 
       {/* Skills */}
-      <motion.section id="skills" className="p-6" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
+      <motion.section id="skills & tools" className="p-6" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
         <h3 className="text-3xl font-semibold mb-4 font-[Lora]">Skills and Tools</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {skills.map((skill, i) => (
