@@ -51,7 +51,7 @@ const education = [
 const experience = [
   {
   title: "Freelance Web Developer – Solid NGO, Kash College",
-  duration: "July 2025 – Present",
+  duration: "September 2025 – Present",
   desc: "Developing a production-ready MERN + EJS web app to digitize college and NGO operations. Implemented secure role-based authentication using JWT and HTTP-only cookies. Focused on enhancing data accessibility and resource management for college education in rural areas."
   },
   {
