@@ -224,7 +224,12 @@ export default function App() {
           whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} />
         <motion.h2 className="text-4xl font-bold mb-4 text-purple-700 dark:text-purple-300">Full Stack Developer</motion.h2>
         <p className="max-w-xl text-gray-700 dark:text-gray-300">
-         Final-year B. Tech Computer Science student with expertise in Full Stack Web Development, and a strong interest in backend engineering, AI/ML, Deep Learning, cloud technologies, databases, and DevOps. Completed Data Science projects and currently pursuing AWS, Deep Learning and Machine Learning specialization. Experienced in MERN, Django, Java/Python projects, and MySQL, with a passion for building scalable, real-world applications and continuously expanding technical skills.
+          Final-year B.Tech Computer Science student with strong expertise in Full Stack Web Development (MERN, 
+          Django) and a deep focus on Backend Engineering, AI/ML, and Cloud Technologies. Experienced in building 
+          scalable, secure web applications using Node.js, Express.js, and MongoDB, and developing Deep Learning and 
+          Computer Vision models with TensorFlow, Keras, and OpenCV. Proficient in AWS cloud deployment, 
+          authentication systems, and REST API integration. Currently exploring Generative AI, Chatbot Development, 
+          and LLM-based solutions, with a passion for creating intelligent, data-driven, and production-ready systems.
         </p>
       </motion.section>
 
