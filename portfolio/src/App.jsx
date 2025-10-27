@@ -115,13 +115,18 @@ const projects = [
 
 const certifications = [
   {
+    title: "Python for Machine Learning & Data Science Masterclass 2025 – Udemy",
+    date: "October 2025",
+    link: "https://www.udemy.com/certificate/UC-b0ee345a-c8dd-49e3-a295-b66a1e731055/" // Replace with your actual certificate link
+  },
+  {
     title: "Code for Good 2025 – JPMorgan Chase & Co.",
     date: "June 2025",
     link: "https://www.dropbox.com/scl/fi/jdz19t5mkgzyhg3x7hilo/cfg_hyd_JPMC.jpg?rlkey=4h16id8yo5g48ifyu0j9x6eb4&st=lm4xfat5&dl=0" // Replace with actual certificate link if available
   },
   {
     title: "Web Developer Bootcamp 2024 – Udemy",
-    date: "March 2024",
+    date: "September 2024",
     link: "https://www.udemy.com/certificate/UC-f18b2d39-1672-42bb-8e94-5930e8caabd5/" // Replace with your actual certificate link
   },
   {
