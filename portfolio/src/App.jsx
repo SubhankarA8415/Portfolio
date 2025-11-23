@@ -233,8 +233,8 @@ export default function App() {
           Django) and a deep focus on Backend Engineering, AI/ML, and Cloud Technologies. Experienced in building 
           scalable, secure web applications using Node.js, Express.js, and MongoDB, and developing Deep Learning and 
           Computer Vision models with TensorFlow, Keras, and OpenCV. Proficient in AWS cloud deployment, 
-          authentication systems, and REST API integration. Currently exploring Generative AI, Chatbot Development, 
-          and LLM-based solutions, with a passion for creating intelligent, data-driven, and production-ready systems.
+          authentication systems, and REST API integration. Currently exploring Generative-Agentic AI, Chatbot Development, 
+          and LLM-based solutions, AI Agents, with a passion for creating intelligent, data-driven, and production-ready systems.
         </p>
       </motion.section>
 
