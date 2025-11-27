@@ -21,7 +21,7 @@ const skills = [
   "MySQL", "SQLite",
   "Vercel", "Render", "Firebase", "Cloudinary",
   "TensorFlow", "Keras", "Scikit-Learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", 
-  "OpenCV", "Media pipe", "AWS",
+  "OpenCV", "Media pipe", "Streamlit", "Flask", "AWS",
   "Git", "GitHub", "REST APIs", "Payment Gateways", "Postman", "VS Code", "Insomnia", "IntelliJ",
   "SMS Gatway", "Anaconda", "Google Colab", "Maps", "OAuth", "Authentication", "Authorization", "Tailwind",
   "Terminal",  "Prompt Engineering"
@@ -94,11 +94,18 @@ const projects = [
   github: "https://github.com/SubhankarA8415/Virtual-Painter-Computer-Vision"
 },
   {
-  "title": "Food Vision 101",
-  "desc": "Built a food image classifier using EfficientNetB0 with transfer learning, comparing Adam and Lion optimizers. Achieved ~75% test accuracy with Adam and ~79% with Lion through feature extraction and fine-tuning.",
-  "tech": ["TensorFlow", "Keras", "NumPy", "Matplotlib"],
-  "github": "https://github.com/SubhankarA8415/Food_Vision_101"
+  title: "Food Vision 101",
+  desc: "Built a food image classifier using EfficientNetB0 with transfer learning, comparing Adam and Lion optimizers. Achieved ~75% test accuracy with Adam and ~79% with Lion through feature extraction and fine-tuning.",
+  tech: ["TensorFlow", "Keras", "NumPy", "Matplotlib"],
+  github: "https://github.com/SubhankarA8415/Food_Vision_101"
 },
+  {
+  title: "Random Forest Regressor, ML, DS Projects – Local ML Deployment",
+  desc: "Developed an end-to-end regression model with comprehensive EDA, feature engineering, and evaluation. Deployed the trained Random Forest Regressor using a Flask API to enable real-time, JSON-based predictions.",
+  tech: ["Scikit-Learn", "Pandas", "NumPy", "Flask", "Joblib", "Matplotlib", "Seaborn"],
+  github: "https://github.com/SubhankarA8415/Data-Science-and-Machine-Learning"
+},
+
   {
     title: "Java Projects",
     desc: "Developed a console-based banking system for transactions and account management. Also implemented algorithms like affine cipher, CPU scheduling (FCFS, RR), and a basic employee database using Java and OOP principles.",
