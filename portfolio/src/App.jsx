@@ -115,6 +115,11 @@ const projects = [
 
 const certifications = [
   {
+    title: "Ultimate AWS Certified Developer Associate 2025 DVA-C02 – Udemy",
+    date: "November 2025",
+    link: "https://www.udemy.com/certificate/UC-1d19754c-28a4-4d69-a5c1-e4edbd1ebbd6/" // Replace with your actual certificate link
+  },
+  {
     title: "Python for Machine Learning & Data Science Masterclass 2025 – Udemy",
     date: "October 2025",
     link: "https://www.udemy.com/certificate/UC-b0ee345a-c8dd-49e3-a295-b66a1e731055/" // Replace with your actual certificate link
