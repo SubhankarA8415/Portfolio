@@ -239,7 +239,7 @@ export default function App() {
         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
         <motion.img src={profileFrame} alt="Subhankar Pandit" className="w-56 h-72 rounded-xl shadow-xl mb-6 border-4 border-purple-500 object-cover"
           whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} />
-        <motion.h2 className="text-4xl font-bold mb-4 text-purple-700 dark:text-purple-300">Full Stack Developer</motion.h2>
+        <motion.h2 className="text-4xl font-bold mb-4 text-purple-700 dark:text-purple-300">AI/ML and Full Stack Developer</motion.h2>
         <p className="max-w-xl text-gray-700 dark:text-gray-300">
           Final-year B.Tech Computer Science student with strong expertise in Full Stack Web Development (MERN, 
           Django) and a deep focus on Backend Engineering, AI/ML, and Cloud Technologies. Experienced in building 
