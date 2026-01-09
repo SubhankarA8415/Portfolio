@@ -105,7 +105,18 @@ const projects = [
   tech: ["Scikit-Learn", "Pandas", "NumPy", "Flask", "Joblib", "Matplotlib", "Seaborn"],
   github: "https://github.com/SubhankarA8415/Data-Science-and-Machine-Learning"
 },
-
+{
+  title: "Voice-Enabled Government Scheme Recommendation Agent (Agentic AI)",
+  desc: "Built a voice-based AI assistant that collects user details through a confirmation-driven flow and recommends eligible government welfare schemes. Implemented a Planner–Executor–Evaluator agent architecture combining LLM-guided decision-making with rule-based eligibility logic to ensure accurate and explainable recommendations.",
+  tech: ["Python", "Google Gemini API", "faster-whisper", "gTTS", "NumPy"],
+  github: "https://github.com/SubhankarA8415/Voice-Agent"
+},
+{
+  title: "LLM Fine-Tuning for Academic Question Answering",
+  desc: "Implemented supervised fine-tuning and instruction tuning of large language models on a custom academic dataset. Compared DistilGPT-2 and FLAN-T5 Base, focusing on stable training, proper data validation, and generating consistent, textbook-style question answering outputs.",
+  tech: ["Python", "PyTorch", "Hugging Face Transformers", "Hugging Face Datasets", "Accelerate", "Matplotlib"],
+  github: "https://github.com/SubhankarA8415/Fine-Tunning-LLM"
+},
   {
     title: "Java Projects",
     desc: "Developed a console-based banking system for transactions and account management. Also implemented algorithms like affine cipher, CPU scheduling (FCFS, RR), and a basic employee database using Java and OOP principles.",
@@ -121,6 +132,11 @@ const projects = [
 ];
 
 const certifications = [
+  {
+    title: "TensorFlow for Deep Learning Bootcamp – Udemy",
+    date: "January 2026",
+    link: "https://www.udemy.com/certificate/UC-0591170a-5393-44ab-8794-1ccaf6cc5a7d/" // Replace with your actual certificate link
+  },
   {
     title: "Ultimate AWS Certified Developer Associate 2025 DVA-C02 – Udemy",
     date: "November 2025",
@@ -241,12 +257,12 @@ export default function App() {
           whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} />
         <motion.h2 className="text-4xl font-bold mb-4 text-purple-700 dark:text-purple-300">AI/ML and Full Stack Developer</motion.h2>
         <p className="max-w-xl text-gray-700 dark:text-gray-300">
-          Final-year B.Tech Computer Science student with strong expertise in Full Stack Web Development (MERN, 
-          Django) and a deep focus on Backend Engineering, AI/ML, and Cloud Technologies. Experienced in building 
-          scalable, secure web applications using Node.js, Express.js, and MongoDB, and developing Deep Learning and 
-          Computer Vision models with TensorFlow, Keras, and OpenCV. Proficient in AWS cloud deployment, 
-          authentication systems, and REST API integration. Currently exploring Generative-Agentic AI, Chatbot Development, 
-          and LLM-based solutions, AI Agents, with a passion for creating intelligent, data-driven, and production-ready systems.
+          Final-year B.Tech Computer Science student with a growing interest in Artificial Intelligence, Machine 
+          Learning, and Generative AI, currently learning to build intelligent, data-driven applications. Familiar with 
+          Deep Learning and Computer Vision basics using TensorFlow, Keras, and OpenCV, and exploring LLM-based 
+          applications, chatbots, and agentic AI workflows. Experienced in backend development with Python, Node.js, 
+          Django, and Express.js, building scalable REST APIs and authentication systems. Familiar with AWS cloud 
+          fundamentals, experimenting with simple deployments and integrating early-stage AI models into applications.
         </p>
       </motion.section>
 
