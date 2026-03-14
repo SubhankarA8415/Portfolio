@@ -769,6 +769,13 @@ export default function App() {
         <button className="logo" onClick={() => scrollTo("home")} style={{ background: "none", border: "none", cursor: "pointer" }}>
           SP
         </button>
+        {/* Profile / top-of-page button */}
+        <button
+          className={`nav-link ${active === "home" ? "active" : ""}`}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          Profile
+        </button>
         {navItems.map(id => (
           <button
             key={id}
@@ -831,7 +838,7 @@ export default function App() {
           >
             <button
               onClick={() => setOpen(false)}
-              style={{ position: "absolute", top: 20, right: 20, background: "none", border: "none", color: "var(--neon-cyan)", fontSize: "1.5rem", cursor: "pointer" }}
+              style={{ position: "absolute", top: 20, left: 20, background: "none", border: "1px solid rgba(0,245,255,0.25)", borderRadius: 8, padding: "8px 10px", color: "var(--neon-cyan)", fontSize: "1.2rem", cursor: "pointer" }}
             >
               <FaTimes />
             </button>
