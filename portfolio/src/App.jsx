@@ -845,6 +845,9 @@ export default function App() {
             <button className="logo" style={{ background: "none", border: "none", cursor: "pointer", fontSize: "1.4rem" }} onClick={() => scrollTo("home")}>
               Subhankar Pandit
             </button>
+            <button className="mobile-nav-link" onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setOpen(false); }}>
+              Profile
+            </button>
             {navItems.map(id => (
               <button key={id} className="mobile-nav-link" onClick={() => scrollTo(id)}>
                 {id === "skills & tools" ? "Skills & Tools" : id}
