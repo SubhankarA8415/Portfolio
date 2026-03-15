@@ -484,7 +484,7 @@ const education = [
     degree: "B.Tech in Computer Science & Engineering",
     institution: "ITER, SOA University, Bhubaneswar",
     duration: "2022 – 2026",
-    cgpa: "CGPA: 9.31"
+    cgpa: "CGPA: 9.3"
   },
   {
     degree: "12th Science",
