@@ -439,6 +439,9 @@ style.textContent = `
 
   section { position: relative; z-index: 1; }
 
+  /* Education meta - right on desktop, left on mobile */
+  .edu-meta { text-align: right; }
+
   /* Responsive max-width container */
   .container {
     max-width: 1100px;
@@ -454,6 +457,7 @@ style.textContent = `
   @media (max-width: 768px) {
     .navbar { display: none !important; }
     .section-wrap { padding: 60px 0; }
+    .edu-meta { text-align: left !important; }
   }
 `;
 document.head.appendChild(style);
@@ -1029,7 +1033,7 @@ export default function App() {
                   </h4>
                   <p style={{ color: "var(--text-muted)", fontSize: "0.9rem" }}>{edu.institution}</p>
                 </div>
-                <div style={{ textAlign: "right" }}>
+                <div className="edu-meta">
                   <p style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.75rem", color: "var(--neon-purple)", marginBottom: "0.2rem" }}>{edu.duration}</p>
                   <p style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.75rem", color: "var(--neon-green)" }}>{edu.cgpa}</p>
                 </div>
