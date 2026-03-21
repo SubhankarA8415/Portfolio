@@ -523,28 +523,8 @@ const projects = [
   desc: "Developed a deep learning-based time series forecasting system to predict Bitcoin prices using historical data, implementing models like LSTM, CNN, Dense networks, and ensemble methods with proper data preprocessing and evaluation.",
   tech: ["Python", "TensorFlow", "Pandas", "NumPy", "Matplotlib", "yFinance"],
   github: "https://github.com/SubhankarA8415/Time_Series"
-}, 
-  {
-    title: "Code for Good 2025 – JPMorgan Chase & Co.",
-    desc: "Developed a real-world agri-tech platform for NGO CML to digitize operations, support farmer onboarding, enable donations, and run a crop marketplace. Built a secure backend with role-based access, OTP login, real-time chat, chatbot, Razorpay payments, and SMS alerts. Enabled production tracking, dashboards, and data visualizations.",
-    tech: ["MongoDB","Express.js","Node.js","React.js","Tailwind CSS","Cloudinary","Razorpay","SMS API","Google OAuth"],
-    github: "https://github.com/SubhankarA8415/CFG-HYD-2025-JPMC",
-    live: "https://cfg-hyd-2025-jpmc.vercel.app/"
-  },
-  {
-    title: "Yelp-Camp",
-    desc: "Developed a Yelp-like full-stack platform where users can browse, review, and post campgrounds. Implemented full CRUD operations, user authentication with Passport.js, and integrated Cloudinary for image uploads.",
-    tech: ["MongoDB","Express.js","Node.js","Cloudinary","Passport.js"],
-    github: "https://github.com/SubhankarA8415/Web_Dev_Yelp-camp",
-    live: "https://web-dev-yelp-camp.onrender.com/"
-  },
-  {
-    title: "Django Mini Projects",
-    desc: "Built a blog, weather app, and chatbot showcasing Django backend, API integration, and dynamic frontend development.",
-    tech: ["Django","HTML/CSS","JavaScript","SQLite"],
-    github: "https://github.com/SubhankarA8415/Django",
-  },
-  {
+  }, 
+   {
     title: "Virtual Air Painter 🎨",
     desc: "Developed a real-time virtual air drawing application using OpenCV and MediaPipe, enabling gesture-based drawing, color selection, and eraser functionality through hand tracking.",
     tech: ["OpenCV","MediaPipe"],
@@ -573,6 +553,26 @@ const projects = [
     desc: "Implemented supervised fine-tuning and instruction tuning of large language models on a custom academic dataset. Compared DistilGPT-2 and FLAN-T5 Base, focusing on stable training, proper data validation, and generating consistent, textbook-style question answering outputs.",
     tech: ["Python","PyTorch","Hugging Face Transformers","Hugging Face Datasets","Accelerate","Matplotlib"],
     github: "https://github.com/SubhankarA8415/Fine-Tunning-LLM"
+  },
+  {
+    title: "Code for Good 2025 – JPMorgan Chase & Co.",
+    desc: "Developed a real-world agri-tech platform for NGO CML to digitize operations, support farmer onboarding, enable donations, and run a crop marketplace. Built a secure backend with role-based access, OTP login, real-time chat, chatbot, Razorpay payments, and SMS alerts. Enabled production tracking, dashboards, and data visualizations.",
+    tech: ["MongoDB","Express.js","Node.js","React.js","Tailwind CSS","Cloudinary","Razorpay","SMS API","Google OAuth"],
+    github: "https://github.com/SubhankarA8415/CFG-HYD-2025-JPMC",
+    live: "https://cfg-hyd-2025-jpmc.vercel.app/"
+  },
+  {
+    title: "Yelp-Camp",
+    desc: "Developed a Yelp-like full-stack platform where users can browse, review, and post campgrounds. Implemented full CRUD operations, user authentication with Passport.js, and integrated Cloudinary for image uploads.",
+    tech: ["MongoDB","Express.js","Node.js","Cloudinary","Passport.js"],
+    github: "https://github.com/SubhankarA8415/Web_Dev_Yelp-camp",
+    live: "https://web-dev-yelp-camp.onrender.com/"
+  },
+  {
+    title: "Django Mini Projects",
+    desc: "Built a blog, weather app, and chatbot showcasing Django backend, API integration, and dynamic frontend development.",
+    tech: ["Django","HTML/CSS","JavaScript","SQLite"],
+    github: "https://github.com/SubhankarA8415/Django",
   },
   {
     title: "Java Projects",
