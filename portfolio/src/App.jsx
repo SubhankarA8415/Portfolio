@@ -519,6 +519,12 @@ const experience = [
 
 const projects = [
   {
+  title: "Bitcoin Price Forecasting (BitPredict) 📈",
+  desc: "Developed a deep learning-based time series forecasting system to predict Bitcoin prices using historical data, implementing models like LSTM, CNN, Dense networks, and ensemble methods with proper data preprocessing and evaluation.",
+  tech: ["Python", "TensorFlow", "Pandas", "NumPy", "Matplotlib", "yFinance"],
+  github: "https://github.com/SubhankarA8415/Time_Series"
+}, 
+  {
     title: "Code for Good 2025 – JPMorgan Chase & Co.",
     desc: "Developed a real-world agri-tech platform for NGO CML to digitize operations, support farmer onboarding, enable donations, and run a crop marketplace. Built a secure backend with role-based access, OTP login, real-time chat, chatbot, Razorpay payments, and SMS alerts. Enabled production tracking, dashboards, and data visualizations.",
     tech: ["MongoDB","Express.js","Node.js","React.js","Tailwind CSS","Cloudinary","Razorpay","SMS API","Google OAuth"],
